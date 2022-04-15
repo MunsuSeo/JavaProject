@@ -2,9 +2,9 @@
 -- 계정 생성
 CREATE USER lifebook --ID
 IDENTIFIED BY 1234 --PASSWORD
-DEFAULT TABLESPACE bookstore_tablespace --기본 테이블 스페이스
+DEFAULT TABLESPACE lifebook --기본 테이블 스페이스
 TEMPORARY TABLESPACE TEMP -- 임시 테이블 스페이스
-QUOTA UNLIMITED ON bookstore_tablespace; -- 
+QUOTA UNLIMITED ON lifebook; -- 
 
 -- 테이블 스페이스 생성
 create tablespace lifebook
