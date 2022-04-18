@@ -12,6 +12,15 @@ CREATE TABLE userinfo (
 --PK추가
 ALTER TABLE userinfo ADD CONSTRAINT userinfo_userid_pk PRIMARY KEY (user_id);
 
+ALTER TABLE userinfo ADD(user_TEL1 NUMBER(3)
+,user_TEL2 NUMBER(4)
+,user_TEL3 NUMBER(4)
+,user_BIRTH NUMBER(6));
+
+ALTER TABLE userinfo DROP COLUMN user_tel;
+ALTER TABLE userinfo DROP COLUMN user_phonenumber;
+ALTER TABLE userinfo DROP COLUMN user_birthdate;
+
 --공지사항 게시판 테이블
 CREATE TABLE notice (
     n_title       VARCHAR2(50) NOT NULL,
