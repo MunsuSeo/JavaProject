@@ -5,7 +5,7 @@
 
 -- 테이블 스페이스 생성
 create tablespace lifebook
-datafile 'D:\java\pp\db\lifebook_tablespace.dbf'
+datafile 'D:\java\pp\db\lifebook.dbf' -- D:\java\pp\db\ 경로가 존재해야 동작합니다.
 size 10M reuse
 autoextend on next 5M
 maxsize unlimited;
@@ -22,3 +22,6 @@ GRANT CREATE SESSION TO lifebook;
 
 --테이블 생성 권한 부여
 GRANT CREATE TABLE TO lifebook;
+
+--뷰 생성 권한 부여
+GRANT CREATE VIEW TO lifebook;
