@@ -13,3 +13,7 @@ System계정에서 CreateUserLifeBook.sql 스크립트,
 생성된 lifebook 계정에서 p1.sql 스크립트를 각각 실행해주신 후
 
 intro/intro.jsp 파일을 실행해 주세요.
+
+테스트용 ID/PWD 
+-> test/123 (일반유저)
+-> admin/123 (관리자)
