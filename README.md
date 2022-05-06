@@ -3,7 +3,7 @@
 =======================================
 
 Server.xml 파일의 Host태그 안쪽 제일 아래에
-<Context docBase="LifeBook3" path="/LifeBook3" reloadable="true" source="org.eclipse.jst.jee.server:LifeBook3">
+<Context docBase="LifeBook" path="/LifeBook" reloadable="true" source="org.eclipse.jst.jee.server:LifeBook">
 	  	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/oracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="lifebook"/>
 </Context>
 위 코드를 넣어주세요.
